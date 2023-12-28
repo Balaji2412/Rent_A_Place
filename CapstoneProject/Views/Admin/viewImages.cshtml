@@ -1,0 +1,143 @@
+﻿
+@model  CapstoneProject.ViewModel.imageUploadView
+
+@{
+    ViewBag.Title = "viewImages";
+}
+
+<br />
+<h2 style="text-align:center"><strong>View/Update Property Images</strong></h2>
+<hr />
+
+@using (Html.BeginForm("viewImages", "Admin", new { pid = ViewBag.propertyid }, FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6" style="float:none;margin:auto;">
+                <div class="panel panel-primary">
+                    <div class="panel-heading" style="text-align:center">
+                        <h1 class="panel-title">Add Property Images</h1>
+                    </div>
+                    <div class="panel-body" style="text-align:center">
+                        <h2><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></h2>
+                        <h4>Select an Image File</h4>
+                        <h5 style="padding-top:10px">
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-8" style="float:none;margin:auto;">
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <div class="form-group">
+                                                        @Html.TextBoxFor(model => model.files, "", new { @type = "file", @multiple = "multiple" })
+                                                        @Html.ValidationMessageFor(model => model.files, "", new { @class = "text-danger" })
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="form-group">
+                                                        <input type="submit" value="Upload" class="btn btn-primary" />
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+}
+
+
+
+<div class="container-fluid">
+    <h3 style="text-align:center">Existing Property Images</h3><br />
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            @if (@ViewBag.imageName != null)
+            {
+                foreach (var iname in @ViewBag.imageName)
+                {
+                    <div class="col-md-3">
+
+                        <div class="thumbnail">
+                            <img src="~/Images/@iname" style="width:250px; height:200px" />
+                            <div class="caption" style="text-align:center; padding-top: 10px">
+                                @Html.ActionLink("DeleteImage", "DeletePropertyImage", new { img = iname, pid = ViewBag.propertyid }, new { @class = "btn btn-danger" })
+                            </div>
+                        </div>
+                    </div>
+                }
+
+            }
+        </div>
+    </div>
+
+</div>
+
+<div>
+    @Html.ActionLink("My Properties", "viewProperty", "Admin", new { @class = "btn btn-primary" })
+</div>
+
+
+
+
+
+
+
+
+@*<h2>Add Images</h2>
+
+@using (Html.BeginForm("viewImages", "Admin", new { pid = ViewBag.propertyid }, FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Imagaclass</h4>
+        <hr />
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.files, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.files, "", new { @type = "file", @multiple = "multiple" })
+                @Html.ValidationMessageFor(model => model.files, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Upload" class="btn btn-primary" />
+            </div>
+        </div>
+        <div class="form-group">
+                <div class="col-md-offset-2 col-md-10 text-success">
+                    @ViewBag.path1
+                </div>
+            </div>
+    </div>
+}*@
+
+
+
+@*<h2>viewImages</h2>
+
+@if (@ViewBag.imageName != null)
+{
+    foreach (var iname in @ViewBag.imageName)
+    {
+        <img src="~/Images/@iname" style="width:200px; height:200px" />
+        @Html.ActionLink("DeleteImage", "DeletePropertyImage", new { img = iname, pid = ViewBag.propertyid })
+    }
+}*@
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

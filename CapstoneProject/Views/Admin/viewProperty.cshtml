@@ -1,0 +1,235 @@
+﻿@model IEnumerable<CapstoneProject.Models.propertyDetail>
+
+@{
+    ViewBag.Title = "viewProperty";
+}
+
+@*<h2>viewProperty</h2>*@
+
+
+<div class="content" id="viewPropertyBackground">
+    <div class="container">
+        <div class="row" style="text-align:end; padding: 0 15px 15px 0">
+            <a href="@Url.Action("logout","Home")">
+                <span class="btn btn-danger btn-lg btn-outline">Logout</span>
+            </a>
+        </div>
+    </div>
+    <div class="container" id="infoContainer">
+        @foreach (var item in Model)
+        {
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <h3 class="mb-5" style="font-family: 'Poppins', sans-serif;">
+                        Hello <strong style="text-transform: capitalize">@Html.DisplayFor(modelItem => item.adminName)</strong>, your listed properties
+                    </h3><br />
+                </div>
+                <div class="col-md-4" style="text-align: end">
+                    @*<h4>Admin ID: <strong>@Html.DisplayFor(modelItem => item.adminID)</strong></h4>*@
+                    @*@Html.ActionLink("Add New Property", "CreateProperty", new { @class = "btn btn-primary" })*@
+
+                    <h3>@Html.ActionLink("Add New Property", "CreateProperty", new { pid = item.propertyID }, new { @class = "btn btn-success" })</h3>
+                </div>
+
+                <div class="col-md-2" style="padding-left:0px">
+                    <h3>
+                        <a href="@Url.Action("confirmReservation", "Admin")" class="btn btn-default">
+                            <span class="badge">@ViewBag.count</span> Reservation Request
+                        </a>
+                    </h3>
+
+                    @*<h3>@Html.ActionLink( @Html.Raw("<span class=\"badge\">@ViewBag.count</span>") + "Reservation Request", "confirmReservation", new { pid = item.propertyID }, new { @class = "btn btn-primary" })</h3>*@
+                </div>
+            </div>
+            break;
+        }
+
+        @*<div class="row">
+                <div class="col-md-12">
+                    @Html.ActionLink("Add New Property", "CreateProperty", new { @class = "btn btn-primary" })
+                </div>
+            </div>*@
+
+        <div class="table-responsive">
+
+            <table class="table custom-table">
+
+                <thead>
+                    <tr>
+                        <th scope="col" style="text-align: center; width: 14%; font-family: 'Times New Roman', Times, serif; font-size: 16px">Property Name</th>
+                        <th scope="col" style="text-align: center; width: 14%; font-family: 'Times New Roman', Times, serif; font-size: 16px">Location</th>
+                        <th scope="col" style="text-align: center; width: 14%; font-family: 'Times New Roman', Times, serif; font-size: 16px">Price</th>
+                        <th scope="col" style="text-align: center; width: 14%; font-family: 'Times New Roman', Times, serif; font-size: 16px">Category</th>
+                        <th scope="col" style="text-align: center; width: 44%; font-family: 'Times New Roman', Times, serif; font-size: 16px">Actions</th>
+                    </tr>
+                </thead>
+                @foreach (var item in Model)
+                {
+
+                    <tbody>
+                        <tr style="height:65px">
+                            <td style="text-align: center; vertical-align: middle">@Html.DisplayFor(modelItem => item.propertyName)</td>
+                            <td style="text-align: center; vertical-align: middle">@Html.DisplayFor(modelItem => item.Location)</td>
+                            <td style="text-align: center; vertical-align: middle">
+                                <span>
+                                    &#8377;
+                                    @Html.DisplayFor(modelItem => item.price)
+                                </span>
+                            </td>
+                            <td style="text-align: center; vertical-align: middle">@Html.DisplayFor(modelItem => item.category)</td>
+                            <td scope="col" style="text-align: center; vertical-align: middle">
+
+                                @Html.ActionLink("View/Update Images", "viewImages", new { pid = item.propertyID }, new { @class = "btn btn-primary btn-sm" })
+                                @Html.ActionLink("Update Property Details", "editProperty", new { pid = item.propertyID }, new { @class = "btn btn-info btn-sm" })
+                                @Html.ActionLink("Unlist Property", "DeleteProperty", new { pid = item.propertyID }, new { @class = "btn btn-danger btn-sm" })
+                                <a href="@Url.Action("allChats", "Admin", new { pid = item.propertyID })" class="btn btn-primary btn-sm">
+                                    <span class="glyphicon glyphicon-envelope"></span>
+                                </a>
+                                @*@Html.ActionLink("", "allChats", new { pid = item.propertyID }, new {@class = "glyphicon glyphicon-comment" })*@
+
+
+
+                            </td>
+                        </tr>
+                    </tbody>
+                }
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<style>
+    #viewPropertyBackground {
+        padding: 5rem 0;
+        background-image: url(https://images.pexels.com/photos/15588318/pexels-photo-15588318.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+        color: #000;
+        overflow-x: hidden;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+       
+    }
+    #infoContainer {
+        background-color: floralwhite;
+    }
+</style>
+
+
+
+
+
+
+
+
+
+@*<p>
+    @Html.ActionLink("Create New", "CreateProperty")
+</p>*@
+@*<p>
+    @Html.ActionLink("Reservation Request","confirmReservation") @ViewBag.count
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.propertyID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.adminID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.adminName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.propertyName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Location)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.category)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.imageName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.propertyID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.adminID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.adminName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.propertyName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Location)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.category)
+        </td>
+        <td>
+            @Html.Partial("_imagePartialView", item)
+        </td>
+        <td>
+            @Html.ActionLink("Property_Images", "viewImages", new { pid=item.propertyID})
+        </td>
+        <td>
+            @Html.ActionLink("Update Property", "editProperty", new { pid = item.propertyID }) |
+            @Html.ActionLink("Details", "getProperties", new { pid = item.propertyID }) |
+            @Html.ActionLink("Delete", "DeleteProperty", new { pid = item.propertyID }) |
+            @Html.ActionLink("Messages For Property", "allChats", new { pid=item.propertyID})
+        </td>
+    </tr>
+}
+
+</table>*@
+
+<style>
+        .btn-outline {
+                background-color: transparent;
+                color: #fff;
+                transition: all .5s;
+
+    }
+
+         .btn-primary.btn-outline:hover,     .btn-success.btn-outline:hover,     .btn-info.btn-outline:hover,     .btn-danger.btn-outline:hover {
+                color: #fff;
+
+    }
+
+         .btn-primary.btn-outline {
+                color: #fff;
+
+    }
+
+         .btn-success.btn-outline {
+                color: #fff;
+
+    }
+
+         .btn-info.btn-outline {
+                color: #fff;
+
+    }
+
+         .btn-danger.btn-outline {
+                color: red;
+
+    }
+</style>
+
+

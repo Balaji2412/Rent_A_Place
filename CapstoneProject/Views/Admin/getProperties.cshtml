@@ -1,0 +1,92 @@
+﻿@model CapstoneProject.Models.propertyDetail
+
+@{
+    ViewBag.Title = "getProperties";
+}
+
+<h2>getProperties</h2>
+
+
+<div>
+    <h4>propertyDetail</h4>
+    <hr />
+
+    @if (@ViewBag.imageName != null)
+    {
+        foreach (var iname in @ViewBag.imageName)
+        {
+            <img src="~/Images/@iname" style="width:200px; height:200px" />
+        }
+    }
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.propertyID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.propertyID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.adminID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.adminID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.adminName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.adminName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.propertyName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.propertyName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Location)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Location)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.category)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.category)
+        </dd>
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rating)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "editProperty", new {pid=Model.propertyID}) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

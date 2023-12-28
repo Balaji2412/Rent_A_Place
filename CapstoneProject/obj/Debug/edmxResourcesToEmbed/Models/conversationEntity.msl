@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="capstoneProjectModel2StoreContainer" CdmEntityContainer="capstoneProjectEntities2">
+    <EntitySetMapping Name="conversations">
+      <EntityTypeMapping TypeName="capstoneProjectModel2.conversation">
+        <MappingFragment StoreEntitySet="conversation">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="pid" ColumnName="pid" />
+          <ScalarProperty Name="senderMail" ColumnName="senderMail" />
+          <ScalarProperty Name="customermail" ColumnName="customermail" />
+          <ScalarProperty Name="text" ColumnName="text" />
+          <ScalarProperty Name="date" ColumnName="date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

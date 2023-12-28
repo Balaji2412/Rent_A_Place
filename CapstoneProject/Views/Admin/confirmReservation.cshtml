@@ -1,0 +1,172 @@
+﻿@model IEnumerable<CapstoneProject.Models.propertyReservation>
+
+@{
+    ViewBag.Title = "confirmReservation";
+}
+
+
+
+<div class="content" id="reservationBackground">
+    <div class="container" id="infoContainer">
+        
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <h2 style="text-align: center; font-family: 'Poppins', sans-serif;">Reservation List</h2>
+            </div>
+            <div class="col-md-2">
+                <h3 style="padding-right: 50px">
+                    @Html.ActionLink("My Properties", "viewProperty", "Admin", new { @class = "btn btn-default" })
+                </h3>
+            </div>
+        </div><hr />
+
+
+        <div class="table-responsive">
+
+            <table class="table custom-table">
+
+                <thead>
+                    <tr>
+                        <th scope="col" style="text-align:center; width: 10%; font-family: 'Times New Roman', Times, serif; font-size: 16px">Booker ID</th>
+                        <th scope="col" style="text-align: center; width: 19%; font-family: 'Times New Roman', Times, serif; font-size: 16px">Property Name</th>
+                        <th scope="col" style="text-align: center; width: 21%; font-family: 'Times New Roman', Times, serif; font-size: 16px">Check-In Date</th>
+                        <th scope="col" style="text-align: center; width: 21%; font-family: 'Times New Roman', Times, serif; font-size: 16px">Check-Out Date</th>
+                        <th scope="col" style="text-align: center; width: 27%; font-family: 'Times New Roman', Times, serif; font-size: 16px">Reservation Status</th>
+                    </tr>
+                </thead>
+                @foreach (var item in Model)
+                {
+
+                    <tbody>
+                        <tr style="height:75px">
+                            <td style="text-align: center; vertical-align: middle; text-align: center">@Html.DisplayFor(modelItem => item.userid)</td>
+                            <td style="text-align: center; vertical-align: middle">@Html.DisplayFor(modelItem => item.propertyname)</td>
+                            <td style="text-align: center; vertical-align: middle">@Html.DisplayFor(modelItem => item.checkin)</td>
+                            <td style="text-align: center; vertical-align: middle">@Html.DisplayFor(modelItem => item.checkout)</td>
+                            <td scope="col" style="text-align: center; vertical-align: middle; justify-content:space-between">
+
+                                @Html.DisplayFor(modelItem => item.confirmation)
+                                @if (item.confirmation == null)
+                                {
+                                
+                                    @Html.ActionLink("Accept", "Accept", new { rid = item.reservationId }, new {@class="btn btn-success btn-sm" , style="margin-right:10px"})
+                                    @Html.ActionLink("Decline", "Declain", new { rid = item.reservationId }, new { @class = "btn btn-danger btn-sm" })
+                                
+                                }
+                                @if (item.confirmation == "Confirm")
+                                {
+                                    //confirmed button
+                                }
+                                @if (item.confirmation == "Declined")
+                                {
+                                    //declained
+                                }
+                                </td>
+                            </tr>
+                        </tbody>
+                    }
+
+
+            </table>
+
+        </div>
+
+    </div>
+</div>
+
+<style>
+    #reservationBackground {
+        padding: 5rem 0;
+        background-image: url(https://images.pexels.com/photos/15588318/pexels-photo-15588318.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+        color: #000;
+        overflow-x: hidden;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    #infoContainer {
+        background-color: floralwhite;
+    }
+</style>
+
+
+
+
+@*<p>
+    @Html.ActionLink("PropertyList", "viewProperty", "Admin")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.reservationId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.propertyid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.userid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.adminid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.propertyname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.checkin)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.checkout)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.confirmation)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.reservationId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.propertyid)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.userid)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.adminid)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.propertyname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.checkin)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.checkout)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.confirmation)
+        </td>
+        @if (item.confirmation == null)
+        {
+            <td>
+                @Html.ActionLink("Confirm", "Accept", new { rid = item.reservationId }) |
+                @Html.ActionLink("Decline", "Declain", new { rid = item.reservationId }) |
+            </td>
+        }
+        @if (item.confirmation == "Confirm")
+        {
+            //confirmed button
+        }
+        @if (item.confirmation == "Declined")
+        {
+            //declained
+        }
+    </tr>
+}
+
+</table>*@

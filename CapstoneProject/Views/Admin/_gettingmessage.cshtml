@@ -1,0 +1,37 @@
+﻿<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    @using (Html.BeginForm("AdminWriteMessage", "Admin", FormMethod.Post))
+    {
+        <div class="col-md-10">
+            <input type="text" name="message" />
+        </div>
+        <div class="col-md-2">
+            <input type="submit" value="Send" class="btn btn-default btn-lg" autocomplete="off"/>
+        </div>
+
+        @*<table>
+                <tr>
+
+                    <td><input type="text" name="message" /></td>
+                </tr>
+
+            </table>
+            <br />
+            <input type="submit" value="Send" />*@
+    }
+</body>
+</html>
+
+<style>
+    input {
+        min-width: 100%;
+        padding: 1%;
+    }
+    .col-md-10{
+        padding: 4px;
+    }
+</style>

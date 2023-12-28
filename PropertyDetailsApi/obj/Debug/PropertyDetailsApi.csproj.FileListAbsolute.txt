@@ -1,0 +1,358 @@
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\PropertyDetailsApi.dll.config
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\PropertyDetailsApi.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\PropertyDetailsApi.pdb
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\csc.exe
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\csc.exe.config
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\csc.rsp
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\csi.exe
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\csi.exe.config
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\csi.rsp
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.AppContext.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Console.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.IO.Compression.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Net.Http.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Net.Sockets.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.ValueTuple.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Xml.XPath.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\vbc.exe
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\vbc.exe.config
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\vbc.rsp
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\Antlr3.Runtime.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\EntityFramework.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\EntityFramework.SqlServer.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\Newtonsoft.Json.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\System.Net.Http.Formatting.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\System.Web.Helpers.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\System.Web.Http.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\System.Web.Http.WebHost.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\System.Web.Mvc.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\System.Web.Optimization.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\System.Web.Razor.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\System.Web.WebPages.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\WebGrease.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\EntityFramework.xml
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\EntityFramework.SqlServer.xml
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\Newtonsoft.Json.xml
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\System.Net.Http.Formatting.xml
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\System.Web.Helpers.xml
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\System.Web.Http.xml
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\System.Web.Http.WebHost.xml
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\System.Web.Mvc.xml
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\System.Web.Optimization.xml
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\System.Web.Razor.xml
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\System.Web.WebPages.xml
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\Antlr3.Runtime.pdb
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\obj\Debug\PropertyDetailsApi.csproj.AssemblyReference.cache
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\obj\Debug\PropertyDetailsApi.csproj.CoreCompileInputs.cache
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\obj\Debug\PropertyDetailsApi.csproj.CopyComplete
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\obj\Debug\PropertyDetailsApi.dll
+C:\Users\m-balaj\Downloads\CapstoneProject\CapstoneProject\PropertyDetailsApi\obj\Debug\PropertyDetailsApi.pdb
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\PropertyDetailsApi.dll.config
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\PropertyDetailsApi.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\PropertyDetailsApi.pdb
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\csc.exe
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\csc.exe.config
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\csc.rsp
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\csi.exe
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\csi.exe.config
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\csi.rsp
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.AppContext.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Console.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.IO.Compression.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Net.Http.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Net.Sockets.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.ValueTuple.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Xml.XPath.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\vbc.exe
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\vbc.exe.config
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\vbc.rsp
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\Antlr3.Runtime.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\EntityFramework.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\EntityFramework.SqlServer.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\Newtonsoft.Json.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\System.Net.Http.Formatting.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.Helpers.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.Http.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.Http.WebHost.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.Mvc.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.Optimization.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.Razor.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.WebPages.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\WebGrease.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\EntityFramework.xml
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\EntityFramework.SqlServer.xml
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\Newtonsoft.Json.xml
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\System.Net.Http.Formatting.xml
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.Helpers.xml
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.Http.xml
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.Http.WebHost.xml
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.Mvc.xml
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.Optimization.xml
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.Razor.xml
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.WebPages.xml
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\Antlr3.Runtime.pdb
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\obj\Debug\PropertyDetailsApi.csproj.AssemblyReference.cache
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\obj\Debug\PropertyDetailsApi.csproj.CoreCompileInputs.cache
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\obj\Debug\PropertyDetailsApi.csproj.CopyComplete
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\obj\Debug\PropertyDetailsApi.dll
+C:\Users\zibbran.das\Downloads\CapstoneProject (1)\CapstoneProject\PropertyDetailsApi\obj\Debug\PropertyDetailsApi.pdb
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\PropertyDetailsApi.dll.config
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\PropertyDetailsApi.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\PropertyDetailsApi.pdb
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\csc.exe
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\csc.exe.config
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\csc.rsp
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\csi.exe
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\csi.exe.config
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\csi.rsp
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.AppContext.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Console.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.IO.Compression.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Net.Http.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Net.Sockets.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.ValueTuple.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Xml.XPath.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\vbc.exe
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\vbc.exe.config
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\vbc.rsp
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\Antlr3.Runtime.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\EntityFramework.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\EntityFramework.SqlServer.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\Newtonsoft.Json.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\System.Net.Http.Formatting.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.Helpers.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.Http.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.Http.WebHost.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.Mvc.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.Optimization.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.Razor.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.WebPages.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\WebGrease.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\EntityFramework.xml
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\EntityFramework.SqlServer.xml
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\Newtonsoft.Json.xml
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\System.Net.Http.Formatting.xml
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.Helpers.xml
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.Http.xml
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.Http.WebHost.xml
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.Mvc.xml
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.Optimization.xml
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.Razor.xml
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.WebPages.xml
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\Antlr3.Runtime.pdb
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\obj\Debug\PropertyDetailsApi.csproj.AssemblyReference.cache
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\obj\Debug\PropertyDetailsApi.csproj.CoreCompileInputs.cache
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\obj\Debug\PropertyDetailsApi.csproj.CopyComplete
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\obj\Debug\PropertyDetailsApi.dll
+C:\Users\m-balaj\OneDrive - HCL Technologies Ltd\Desktop\CapstoneProject (1) (1)\CapstoneProject\PropertyDetailsApi\obj\Debug\PropertyDetailsApi.pdb
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\PropertyDetailsApi.dll.config
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\PropertyDetailsApi.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\PropertyDetailsApi.pdb
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\csc.exe
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\csc.exe.config
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\csc.rsp
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\csi.exe
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\csi.exe.config
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\csi.rsp
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.AppContext.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Console.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.IO.Compression.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Net.Http.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Net.Sockets.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.ValueTuple.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Xml.XPath.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\vbc.exe
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\vbc.exe.config
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\vbc.rsp
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\Antlr3.Runtime.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\EntityFramework.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\EntityFramework.SqlServer.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\Newtonsoft.Json.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\System.Net.Http.Formatting.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\System.Web.Helpers.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\System.Web.Http.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\System.Web.Http.WebHost.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\System.Web.Mvc.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\System.Web.Optimization.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\System.Web.Razor.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\System.Web.WebPages.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\WebGrease.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\EntityFramework.xml
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\EntityFramework.SqlServer.xml
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\Newtonsoft.Json.xml
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\System.Net.Http.Formatting.xml
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\System.Web.Helpers.xml
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\System.Web.Http.xml
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\System.Web.Http.WebHost.xml
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\System.Web.Mvc.xml
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\System.Web.Optimization.xml
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\System.Web.Razor.xml
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\System.Web.WebPages.xml
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\Antlr3.Runtime.pdb
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\obj\Debug\PropertyDetailsApi.csproj.AssemblyReference.cache
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\obj\Debug\PropertyDetailsApi.csproj.CoreCompileInputs.cache
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\obj\Debug\PropertyDetailsApi.csproj.CopyComplete
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\obj\Debug\PropertyDetailsApi.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\obj\Debug\PropertyDetailsApi.pdb
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\Swashbuckle.Core.dll
+C:\Users\zibbran.das\Downloads\FINAL PROJECT\CapstoneProject\PropertyDetailsApi\bin\WebActivatorEx.dll

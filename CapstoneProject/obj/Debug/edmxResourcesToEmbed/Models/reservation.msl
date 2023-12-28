@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="capstoneProjectModel3StoreContainer" CdmEntityContainer="capstoneProjectEntities3">
+    <EntitySetMapping Name="propertyReservations">
+      <EntityTypeMapping TypeName="capstoneProjectModel3.propertyReservation">
+        <MappingFragment StoreEntitySet="propertyReservation">
+          <ScalarProperty Name="reservationId" ColumnName="reservationId" />
+          <ScalarProperty Name="propertyid" ColumnName="propertyid" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="adminid" ColumnName="adminid" />
+          <ScalarProperty Name="propertyname" ColumnName="propertyname" />
+          <ScalarProperty Name="checkin" ColumnName="checkin" />
+          <ScalarProperty Name="checkout" ColumnName="checkout" />
+          <ScalarProperty Name="confirmation" ColumnName="confirmation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

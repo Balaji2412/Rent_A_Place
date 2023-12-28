@@ -1,0 +1,451 @@
+﻿@model IEnumerable<CapstoneProject.Models.propertyDetail>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@*<h2>Index</h2>*@
+
+
+
+@*<h2 style="text-align:center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">USER LANDING PAGE</h2>
+<hr />
+<br />*@
+
+
+@*@foreach (var item in Model)*@
+@*{*@
+<div class="container-fluid" id="userViewBackground">
+    <div class="container-fluid" id="userViewNavbar">
+        <div class="row" style="text-align:end">
+            <div class="col-md-7 col-md-offset-1"></div>
+
+            @if (@ViewBag.roles == "User")
+            {
+                <div class="col-md-2">
+                    <a href="@Url.Action("updataprofile")">
+                        <span class="btn btn-info btn-lg btn-outline">Update Profile</span>
+                    </a>
+                </div>
+                <div class="col-md-1">
+                    <a href="@Url.Action("logout","Home")">
+                        <span class="btn btn-danger btn-lg btn-outline">Logout</span>
+                    </a>
+                </div>
+
+                @*@Html.ActionLink("Update Profile", "updataprofile")
+            @Html.ActionLink("Logout", "logout", "Home")*@
+            }
+
+            @if (@ViewBag.roles == null)
+            {
+                <div class="col-md-2">
+                    <a href="@Url.Action("Login","Home")">
+                        <span class="btn btn-success btn-lg btn-outline">Login</span>
+                    </a>
+                </div>
+                <div class="col-md-1">
+                    <a href="@Url.Action("UserRegister","Home")">
+                        <span class="btn btn-primary btn-lg btn-outline">Register</span>
+                    </a>
+                </div>
+
+
+                @*@Html.ActionLink("Login", "Login", "Home", new { @class = "btn btn-lg btn-outline btn-success", style = "margin:10px" })
+                @Html.ActionLink("SignUp", "UserRegister", "Home", new { @class = "btn btn-lg btn-outline btn-primary", style = "margin:10px" })*@
+            }
+
+        </div>
+        <div class="row" style="vertical-align:central">
+            <div class="col-md-12" style="text-align:center; padding-top: 80px">
+                <h1>Welcome to RENT-A-PLACE</h1><br/>
+                <p id="text1">Make Your Vacation Comfortable</p>
+            </div><br/>
+            @*<div class="col-md-6 col-md-offset-3" style="text-align:center">
+                @if (@ViewBag.roles == "User")
+                {
+                    @Html.ActionLink("Update Profile", "updataprofile")
+
+
+                    @Html.ActionLink("Logout", "logout", "Home")
+                }
+                @if (@ViewBag.roles == null)
+                {
+                    @Html.ActionLink("Login", "Login", "Home", new {@class = "btn btn-lg btn-outline btn-success", style="margin:10px"})
+                    @Html.ActionLink("SignUp", "UserRegister", "Home", new { @class = "btn btn-lg btn-outline btn-primary", style = "margin:10px" })
+                }
+            </div>*@
+        </div>
+    </div>
+
+    <div class="container" id="userViewMainContainer">
+
+        @*added*@
+
+        <br /><br />
+        <div class="row">
+            <div id="filteringDiv" class="col-md-8 col-md-offset-2">
+                <div class="row">
+                    <div class="col-md-2 btn-class">
+                        <button class="btn btn-default">
+                            Filter <span class="glyphicon glyphicon-filter"></span>
+                        </button>
+                    </div>
+                    <div class="col-md-2 btn-class">
+                        <button class=" btn btn-default dropdown-toggle">
+                            @Html.DropDownList("AvailableLocations", null, new { onchange = "document.location.href ='/User/ViewProperty?location='+ this.value;", style = "border: none" })
+                        </button>
+                    </div>
+                    <div class="col-md-2 btn-class">
+                        <button class="btn btn-default">
+                            Rating <span class="glyphicon glyphicon-star"></span>
+                        </button>
+                    </div>
+                    <div class="col-md-2 btn-class">
+                        <button class="btn btn-default">
+                            @Html.ActionLink("Desert", "ViewProperty", new { features="desert" }) <i class="fas fa-swimming-pool"></i>
+                        </button>
+                    </div>
+                    <div class="col-md-2 btn-class">
+                        <button class="btn btn-default">
+                            @Html.ActionLink("Cozy", "ViewProperty", new { features = "cozy" }) <i class="far fa-snowflake"></i>
+                        </button>
+                    </div>
+                    <div class="col-md-2 btn-class">
+                        <button class="btn btn-default">
+                            @Html.ActionLink("Beach", "ViewProperty", new { features = "beach" }) <i class="fas fa-umbrella-beach"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-md-offset-1" style="margin-top:10px">
+                <h3>Top Property Picks for You.....</h3>
+            </div>
+        </div>
+
+        @*added*@
+        @foreach (var item in Model.OrderBy(item => item.Rating))
+        {
+
+            <div class="row" style="padding: 3rem 0">
+                <div class="col-md-1"></div>
+                <div class="col-md-4">
+
+                    <!-- Carousel container -->
+                    <div id="my-pics" class="carousel slide" data-ride="carousel" style="width: 300px; margin: auto; border: none !important; border-radius: 10px; box-shadow: 5px 5px 10px black">
+
+
+                        <!-- Indicators -->
+                        @*<ol class="carousel-indicators">
+                            <li data-target="#my-pics" data-slide-to="0" class="active"></li>
+                            <li data-target="#my-pics" data-slide-to="1"></li>
+                            <li data-target="#my-pics" data-slide-to="2"></li>
+                        </ol>*@
+
+                        <!-- Content -->
+                        <div class="carousel-inner" role="listbox">
+                            @*<div class="item active">*@
+                            @if (item.imageName != null)
+                            {
+                                string iname = item.imageName;
+                                char[] seperate = { ',' };
+                                string[] imgarray = iname.Split(seperate);
+                                <div class="item active" data-interval="2500">
+                                    <a href='@Url.Content("/User/Cartview?pid="+item.propertyID)'>
+                                        <img style="width: 100%; height: 250px;" src="~/Images/@imgarray[0]" />
+                                    </a>
+                                </div>
+                                int count;
+                                for (count = 1; count < imgarray.Length; count++)
+                                {
+                                    <div class="item" data-interval="2500">
+                                        <a href='@Url.Content("/User/Cartview?pid="+item.propertyID)'>
+                                            <img style="width: 100%; height: 250px;" src="~/Images/@imgarray[count]" />
+                                        </a>
+                                    </div>
+                                }
+
+                            }
+                            @*</div>*@
+                            @*<div class="item">*@
+                            @*@if (item.imageName != null)
+                                        {
+                                            string iname = item.imageName;
+                                            char[] seperate = { ',' };
+                                            string[] imgarray = iname.Split(seperate);
+                                            @for(int i=1; i<imgarray.Count; i++)
+                            {
+                                            <div class="item">
+                                                <img src="~/Images/@imgarray[i]" />
+                                            </div>
+
+                            }
+                                        }*@
+                            @*</div>*@
+                        </div>
+
+                        <!-- Previous/Next controls -->
+                        @*<a class="left carousel-control" href="#my-pics" role="button" data-slide="prev">
+                            <span class="icon-prev" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#my-pics" role="button" data-slide="next">
+                            <span class="icon-next" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>*@
+
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-6" style="font-size: 25px;; font-family: 'Poppins', sans-serif;">
+                            <strong>@Html.DisplayFor(modelItem => item.propertyName)</strong>
+                        </div>
+                        
+                        <div class="col-md-1"></div>
+                        <br />
+                        <hr style="border-top: 2px solid; color: #0275d8 " />
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-11" style="font-size: 19px">
+                            Property Owner: @Html.DisplayFor(modelItem => item.adminName)
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-6" style="font-size: 17px">
+                            Location: @Html.DisplayFor(modelItem => item.Location)
+                        </div>
+                        <div class="col-md-4" style="font-size: 17px; text-align:end">
+                            Category: @Html.DisplayFor(modelItem => item.category)
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div><br />
+
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-5" style="font-size: 21px">
+                            &#8377; @Html.DisplayFor(modelItem => item.price) / <span class="text-muted" style="font-size: 15px">night</span>
+                        </div>
+                        <div class="col-md-5" style="text-align:end">
+                            @*<button class="btn btn-success" type="button">Book Now</button>
+                            <button class="btn btn-info" type="button">Reserve</button>*@
+                            @*@if (item.imageName != null)
+                            {
+                                <a href=@Url.Content("/User/Cartview?pid="+item.propertyID)'>
+                                    <span class="btn btn-success btn-lg btn-outline">Property Details</span>
+                                </a>
+
+                                }*@
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        }
+    </div>
+</div>
+
+
+
+
+
+
+
+
+@*@if (@ViewBag.roles == "User")
+{
+    @Html.ActionLink("Update Profile", "updataprofile")
+    <br />
+    @Html.ActionLink("Logout", "logout", "Home")
+
+
+}
+@if (@ViewBag.roles == null)
+{
+    @Html.ActionLink("Login", "Login", "Home")
+    @Html.ActionLink("SignUp", "UserRegister", "Home")
+
+
+}*@
+
+@*<button class=" btn btn-secondary dropdown-toggle">
+    @Html.DropDownList("AvailableLocations", null, new { onchange = "document.location.href ='/User/Index?location='+ this.value;" })
+</button>
+
+@Html.ActionLink("pool", "Index", routeValues: "Feature=pool")*@
+
+@*<p>
+        @Html.ActionLink("Create New", "Create")
+    </p>*@
+@*<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.propertyID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.adminID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.adminName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.propertyName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Location)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.category)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.imageName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rating)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.propertyID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.adminID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.adminName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.propertyName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Location)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.category)
+            </td>
+            <td>
+
+                @if (item.imageName != null)
+                {
+                    string iname = item.imageName;
+                    char[] seperate = { ',' };
+                    string[] imgarray = iname.Split(seperate);
+                    foreach (var i in imgarray)
+                    {
+                        <a href='@Url.Content("/User/Cartview?pid="+item.propertyID)'>
+                            <img src="~/Images/@i" style="width:200px; height:200px">
+                        </a>
+                    }
+                }
+
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rating)
+            </td>
+
+        </tr>
+    }
+
+</table>*@
+
+<style>
+    #userViewNavbar {
+        padding: 5rem 0;
+        background-image: url(https://w0.peakpx.com/wallpaper/446/495/HD-wallpaper-sunset-ocean-bungalow-sun-pier-beach-vacation.jpg);
+        color: #000;
+        overflow-x: hidden;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 600px;
+    }
+
+    #userViewMainContainer {
+        background-color: floralwhite;
+    }
+
+    #userViewBackground {
+        background-color: aliceblue;
+        padding: 0px;
+    }
+
+    h1 {
+        color: aliceblue;
+        font-family: 'Gloock', serif;
+        font-size: 75px;
+    }
+
+    #text1 {
+        color: aliceblue;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+    }
+
+    h3 {
+        color: black;
+        font-family: 'Gloock', serif;
+    }
+
+
+    .btn-outline {
+        background-color: transparent;
+        color: #fff;
+        transition: all .5s;
+    }
+
+    .btn-primary.btn-outline:hover,
+    .btn-success.btn-outline:hover,
+    .btn-info.btn-outline:hover,
+    .btn-danger.btn-outline:hover {
+        color: #fff;
+    }
+
+    .btn-primary.btn-outline {
+        color: #fff;
+    }
+
+    .btn-success.btn-outline {
+        color: #fff;
+    }
+
+    .btn-info.btn-outline {
+        color: #fff;
+    }
+
+    .btn-danger.btn-outline {
+        color: #fff;
+    }
+
+    #filteringDiv {
+        border: 2px solid black;
+        border-radius: 15px;
+        background-color: aliceblue;
+        padding: 20px;
+    }
+
+    .btn-class {
+        text-align: center;
+    }
+</style>
