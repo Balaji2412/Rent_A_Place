@@ -1,0 +1,198 @@
+﻿@model CapstoneProject.ViewModel.propertyView
+
+@{
+    ViewBag.Title = "CreateProperty";
+}
+
+
+@*<h2 style="text-align:center">Create Property</h2>
+<hr />*@
+
+<div class="container-fluid">
+    @using (Html.BeginForm("CreateProperty", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+        <div class="row" style="justify-content: center !important; display: flex">
+            <div class="container col-md-8" style="float:none;margin:auto">
+                @*<h3 style="text-align:center">Property Details</h3>*@
+
+                <div class="card" style="padding: 30px 40px; margin-top: 20px; margin-bottom: 20px; border: none !important; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+
+                    <form class="form-card">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 style="text-align: center; font-family: 'Poppins', sans-serif;">List Your Property</h3>
+                                <p style="text-align:center">Please fill up the details below to list your property on RENT-A-PLACE</p>
+                            <hr style="border: 1.5px dashed black"/>
+                            </div><br/>
+                        </div>
+                        <div class="form-horizontal" style="text-align:center; padding-top: 10px">
+                            <div class="col-md-8" style="float:none;margin:auto">
+                                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.propertyName, htmlAttributes: new { @class = "control-label col-md-4" })
+                                    <div class="col-md-8">
+                                        @Html.EditorFor(model => model.propertyName, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.propertyName, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-8" style="float:none;margin:auto">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.Location, htmlAttributes: new { @class = "control-label col-md-4" })
+                                    <div class="col-md-8">
+                                        @Html.EditorFor(model => model.Location, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.Location, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-8" style="float:none;margin:auto">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.price, htmlAttributes: new { @class = "control-label col-md-4" })
+                                    <div class="col-md-8">
+                                        @Html.EditorFor(model => model.price, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.price, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-8" style="float:none;margin:auto">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.category, htmlAttributes: new { @class = "control-label col-md-4" })
+                                    <div class="col-md-8">
+                                        @Html.EditorFor(model => model.category, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.category, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-8" style="float:none;margin:auto">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.files, htmlAttributes: new { @class = "control-label col-md-4" })
+                                    <div class="col-md-8" style="padding-top:1%">
+                                        @Html.TextBoxFor(model => model.files, "", new { @type = "file", @multiple = "multiple" })
+                                        @Html.ValidationMessageFor(model => model.files, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+
+                            @*<div class="col-md-8" style="float:none;margin:auto">
+                                
+                            </div>
+
+                            <div class="col-md-8" style="float:none;margin:auto">
+                                
+                            </div>
+
+                            <div class="col-md-8" style="float:none;margin:auto">
+                                
+                            </div>
+
+                            <div class="col-md-8" style="float:none;margin:auto">
+                                
+                            </div>*@
+
+                            <div class="form-group">
+                                <div class="col-md-12" style="padding-top: 2%">
+                                    <input type="submit" value="Add Property" class="btn btn-success" />
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </form>
+
+                </div>
+                <div>
+                    @Html.ActionLink("My Properties", "viewProperty", "Admin", new { @class = "btn btn-primary" })
+                </div>
+            </div>
+        </div>
+     }
+</div>
+
+
+
+
+
+
+
+
+@*<h2>CreateProperty</h2>*@
+
+@*@using (Html.BeginForm("CreateProperty", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>propertyView</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+                @Html.LabelFor(model => model.adminID, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.adminID, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.adminID, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.adminName, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.adminName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.adminName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.propertyName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.propertyName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.propertyName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Location, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Location, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Location, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.price, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.price, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.price, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.category, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.category, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.category, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.files, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.files, "", new { @type = "file", @multiple = "multiple" })
+                @Html.ValidationMessageFor(model => model.files, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}*@
+
+@*<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>*@

@@ -1,0 +1,146 @@
+﻿
+@{
+    ViewBag.Title = "chat";
+}
+
+
+
+@model IEnumerable<CapstoneProject.Models.conversation>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*<h2>Chat Box</h2>*@
+
+
+
+
+
+<div class="content" id="adminChatBoxBackground">
+    <div class="container" id="adminChatBoxMainContainer">
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-9" style="float:none;margin:auto;">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading" style="text-align:center">
+                            <h1 class="panel-title">Chat Box</h1>
+                        </div>
+                        <div class="panel-body" style="text-align:center">
+                            <div class="row">
+                                @foreach (var item in Model)
+                                {
+                                    <div class="col-md-1" style="text-align:center">
+                                        <img src="https://bootdey.com/img/Content/avatar/avatar3.png" class="img-circle" alt="Sharon Lessman" width="40" height="40">
+                                    </div>
+                                    <div class="col-md-2" style="text-align:left; padding-left:0px; padding-bottom:2px">
+                                        <h5 style="margin-top: 2px; margin-bottom: 3px;"><strong>@item.senderMail</strong></h5>
+                                        <div class="text-muted small"><em>Typing...</em></div>
+                                    </div>
+                                    break;
+                                }
+                                <div class="col-md-9" style="text-align:end">
+                                    <button class="btn btn-primary">
+                                        <span class="glyphicon glyphicon-earphone"></span>
+                                    </button>
+                                    <button class="btn btn-info">
+                                        <span class="glyphicon glyphicon-facetime-video"></span>
+                                    </button>
+                                    <button class="btn btn-default">
+                                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                                    </button>
+                                </div>
+                            </div><hr style="border-top: 2px solid; color: #0275d8 " />
+
+                            <div class="row">
+                                @foreach (var item in Model)
+                                {
+                                    if (item.pid != ViewBag.PId || item.customermail != ViewBag.UserMail) { continue; }
+                                    if (item.senderMail == ViewBag.UserMail)
+                                    {
+                                        <div class="row">
+                                            <div class="col-md-1" style="text-align: end; padding-top: 10px; padding-right:0px">
+                                                <img src="https://bootdey.com/img/Content/avatar/avatar3.png" class="img-circle" alt="Sharon Lessman" width="40" height="40">
+                                            </div>
+                                            <div class="col-md-11">
+                                                <div class="p-3 mb-2" style="text-align: left; background-color: #64c4ed; color: white; width: 60%; margin-bottom: 15px; border-radius: 9px; padding-left: 10px; padding-top: 3px ">
+                                                    <b style="font-size:13px; color:black">@item.senderMail</b><br />
+                                                    <p style="font-size:20px">@item.text</p>
+                                                    <div style="color: black; text-align: end; font-size: 13px; padding-right:10px; padding-bottom:3px">
+                                                        🕰️@item.date
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <div class="row">
+                                            <div class="col-md-11">
+                                                <div class="p-3 mb-2 bg-info" style="text-align: end; color: black; width: 60%; margin-bottom: 15px; margin-left: 40%; border-radius: 9px; padding-right: 10px; padding-top: 3px">
+                                                    <b style="font-size:13px; color:black">You</b><br />
+                                                    <p style="font-size:21px">@item.text</p>
+                                                    <div style="color: black; text-align: left; font-size: 13px; padding-left: 10px; padding-bottom: 3px">
+                                                        🕰️@item.date
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-1" style="text-align: left; padding-top: 10px; padding-left: 0px">
+                                                <img src="https://bootdey.com/img/Content/avatar/avatar3.png" class="img-circle" alt="Sharon Lessman" width="40" height="40">
+                                            </div>
+                                        </div>
+                                    }
+                                }
+                            </div><hr style="border-top: 2px solid; color: #0275d8 " />
+                            <div class="row">
+                                <div class="col-md-12">
+                                    @Html.Partial("_gettingmessage")
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        @*@Html.ActionLink("Send Message", "AdminWriteMessage", new {PId = ViewBag.PId }, new { @class = "btn btn-info" }) |*@
+                        @Html.ActionLink("Chat Logs", "allChats", new { OwnerMail = ViewBag.OwnerMail, PId = ViewBag.PId }, new { @class = "btn btn-primary" })
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@*<h2>Chat</h2> <div style="background-color: dimgrey; min-width: 70%; align-content: center; max-height: 80%; max-width: 70%; justify-content: center; padding: 21px">
+    @foreach (var item in Model)
+    {
+        if (item.pid != ViewBag.PId || item.customermail != ViewBag.UserMail) { continue; }
+        if (item.senderMail == ViewBag.UserMail)
+        {<div class="p-3 mb-2 bg-primary" style="color: white; font-size: medium; width: 60%; align-content: flex-start; margin-bottom: 15px; border-radius: 9px">
+                <b style="font-size:15px">User</b><br />
+                <p style="font-size:21px">@item.text</p><div style="color: black; text-align: end,right; font-size: smaller; text-align: right">🕰️@item.date</div>
+            </div>
+        }
+        else
+        {<div class="p-3 mb-2 bg-info" style="color:black;font-size:large;width:60%;align-content:flex-end;margin-bottom:15px;margin-left:40%; border-radius:9px">
+                <b style="font-size:15px">You</b><br />
+                <p style="font-size:21px">@item.text</p><div style="color:black;text-align:end,right;font-size:smaller;text-align:right">🕰️@item.date</div>
+            </div>
+        }
+    }
+</div>
+
+<div>
+
+    @Html.Partial("_gettingmessage")
+
+</div>*@
+
+@*<div>
+    @Html.ActionLink("Send Message", "AdminWriteMessage", new {PId = ViewBag.PId }, new { @class = "btn btn-info" }) |
+    @Html.ActionLink("Chat Logs", "Chats", new { OwnerMail = ViewBag.OwnerMail, PId = ViewBag.PId }, new { @class = "btn btn-primary" })
+</div>*@
+
+
+

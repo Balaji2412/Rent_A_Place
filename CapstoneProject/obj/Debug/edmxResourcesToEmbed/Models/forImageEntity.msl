@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="capstoneProjectModel2StoreContainer" CdmEntityContainer="forImageEntityEntities">
+    <EntitySetMapping Name="propertyImages">
+      <EntityTypeMapping TypeName="capstoneProjectModel2.propertyImage">
+        <MappingFragment StoreEntitySet="propertyImage">
+          <ScalarProperty Name="imageID" ColumnName="imageID" />
+          <ScalarProperty Name="propertyid" ColumnName="propertyid" />
+          <ScalarProperty Name="imageName" ColumnName="imageName" />
+          <ScalarProperty Name="imagePath" ColumnName="imagePath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

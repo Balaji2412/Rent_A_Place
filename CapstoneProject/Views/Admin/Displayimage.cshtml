@@ -1,0 +1,21 @@
+﻿@model IEnumerable<CapstoneProject.Models.propertyImage>
+@{
+    ViewBag.Title = "Displayimage";
+}
+
+<h2>Displayimage</h2>
+
+@Html.ActionLink("AddImage", "UploadImage", new { pid = ViewBag.pid })
+
+@Html.ActionLink("viewProperty", "viewProperty")
+
+@foreach (var item in Model) 
+{
+    <tr>
+        <td>
+            @*<img src="~/Images/@Html.DisplayFor(modelItem=>item.imag)" style="width:100px; height:100px" />*@
+
+            @Html.Partial("_imagePartialView",item)
+        </td>
+    </tr>
+}

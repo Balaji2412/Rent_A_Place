@@ -1,0 +1,136 @@
+﻿
+@{
+    ViewBag.Title = "allChats";
+}
+
+
+
+@model IEnumerable<CapstoneProject.Models.conversation>
+@{
+    ViewBag.Title = "Chats";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="content" id="adminChatBackground">
+    <div class="container" id="adminChatMainContainer">
+
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <h2 style="text-align: center; font-family: 'Poppins', sans-serif;">Chat Logs</h2>
+            </div>
+            <div class="col-md-2">
+                <h3 style="padding-right: 50px">
+                    @Html.ActionLink("My Properties", "viewProperty", "Admin", new { @class = "btn btn-default" })
+                </h3>
+            </div>
+        </div><hr />
+
+
+        <div class="table-responsive" id="chatTable">
+
+            <table class="table custom-table">
+
+                <thead>
+                    <tr>
+                        <th scope="col" style="text-align:center; width: 25%; font-family: 'Times New Roman', Times, serif; font-size: 16px">Sender Email</th>
+                        <th scope="col" style="text-align: center; width: 30%; font-family: 'Times New Roman', Times, serif; font-size: 16px">Message</th>
+                        <th scope="col" style="text-align: center; width: 30%; font-family: 'Times New Roman', Times, serif; font-size: 16px">Date</th>
+                        @*<th scope="col" style="text-align: center; width: 21%; font-family: 'Times New Roman', Times, serif; font-size: 16px">Action</th>
+                        <th scope="col" style="text-align: center; width: 27%; font-family: 'Times New Roman', Times, serif; font-size: 16px">Reservation Status</th>*@
+                        <th scope="col" style="text-align: center; width: 15%"><th>
+                    </tr>
+                </thead>
+                @foreach (var item in Model)
+                {
+                    if (item.senderMail != item.customermail || item.pid != ViewBag.propertId)
+                    {
+                        continue;
+                    }
+                    <tbody>
+                        <tr style="height:75px">
+                            <td style="text-align: center; vertical-align: middle; text-align: center">@Html.DisplayFor(modelItem => item.senderMail)</td>
+                            <td style="text-align: center; vertical-align: middle">@Html.DisplayFor(modelItem => item.text)</td>
+                            <td style="text-align: center; vertical-align: middle">@Html.DisplayFor(modelItem => item.date)</td>
+                            @*<td style="text-align: center; vertical-align: middle">@Html.DisplayFor(modelItem => item.checkout)</td>*@
+                        <td scope="col" style="text-align: center; vertical-align: middle">
+                            @Html.ActionLink("Reply", "Chat", new { UserMail = item.customermail, OwnerMail = ViewBag.owneremail, PId = item.pid }, new { @class = "btn btn-primary" })
+                        </td>
+                        </tr>
+                    </tbody>
+                }
+
+
+            </table>
+
+        </div>
+
+    </div>
+</div>
+
+
+<style>
+    #adminChatBackground {
+        padding: 5rem 0;
+        background-image: url(https://images.pexels.com/photos/15588318/pexels-photo-15588318.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+        color: #000;
+        overflow-x: hidden;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    #adminChatMainContainer {
+        background-color: floralwhite;
+    }
+    #chatTable{
+        padding: 0 10%;
+    }
+</style>
+
+
+
+
+
+
+@*<h2 style="text-align:center">Chat Logs</h2>
+<hr />
+<h2>Chats</h2>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.senderMail)
+
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.text)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.date)
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        if (item.senderMail != item.customermail || item.pid != ViewBag.propertId)
+        {
+            continue;
+        }
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.senderMail)
+
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.text)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.date)
+            </td>
+            <td>
+                @Html.ActionLink("Replay", "Chat", new { UserMail = item.customermail, OwnerMail = ViewBag.owneremail, PId = item.pid }, new { @class = "btn btn-primary" })
+            </td>
+        </tr>
+    }
+</table>*@
+
